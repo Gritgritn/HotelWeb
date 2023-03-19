@@ -55,6 +55,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
+  font-family: var(--fira-font);
   background: linear-gradient(
       to bottom,
       transparent,

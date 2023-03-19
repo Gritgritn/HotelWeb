@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import Navigation from '@/app/components/layout/Navigation/Navigation'
+import Information from '@/app/components/screens/information/Information'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,11 +16,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navigation />
       <main className={styles.main}>
-        <div style={{ fontFamily: 'Gill Sans' }}>12314221421421412421
-          421414
-        </div>
-        
+        <Information />
       </main>
     </>
   )
