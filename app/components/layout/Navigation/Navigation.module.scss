@@ -95,3 +95,23 @@
 		flex-wrap: wrap;
 	}
 }
+
+.menu__container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+    z-index: 5;
+    display: none;
+}
+
+.menu__title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.menu__element {
+    font-size: 2rem;
+}

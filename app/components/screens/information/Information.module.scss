@@ -1,0 +1,115 @@
+.information__section {
+	margin-top: 55px;
+	padding: 64px 13px 71px 13px;
+	position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.information__container {
+	display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+	flex-wrap: wrap;
+}
+
+.information_header {
+	position: relative;
+    min-height: 1px;
+    display: flex;
+	align-content: flex-end;
+    align-items: flex-end;
+	position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.information_header__destination {
+    padding: 0px 0px 8px 0px;
+	font-size: 14px;
+    line-height: 17.5px;
+	font-family: "Fira Mono", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 17.5px;
+    letter-spacing: 1px;
+}
+
+.information_header__name {
+	margin: 0px 0px 0px 0px;
+    padding: 0px 0px 8px 0px;
+	font-size: 56px;
+    line-height: 56px;
+	color: #000000;
+    font-family: "Gill Sans MT Pro", Sans-serif;
+}
+
+.information_picture__block {
+	position: relative;
+    min-height: 1px;
+    display: flex;
+	width: 100%;
+	flex-direction: column;
+}
+
+.information_picture__container {
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+	display: flex;
+}
+
+.information_img_block {
+    position: relative;
+    overflow: hidden;
+}
+
+.information_img {
+	height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+	min-height: auto;
+	object-fit: cover;
+}
+
+.information_description__text {
+    font-size: 14px;
+    line-height: 17.5px;
+    font-family: 'Gill Sans MT Pro';
+    color: #a9a9a9;
+	margin-top: 5px;
+}
+
+.information__text {
+	padding: 24px 0px 70px 0px;
+	font-size: 18px;
+    line-height: 22.5px;
+	color: #000000;
+    font-family: "Gill Sans MT Pro", Sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.book__container {
+	padding: 0px 0px 10px 0px;
+	font-family: "Gill Sans MT Pro", Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+	display: flex;
+}
+
+.book_arrow__svg {
+	width: 20px;
+    margin: 0 0 2px 3px;
+	transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,transform .4s;
+	&:hover {
+		transform: rotate(45deg);
+	}
+}

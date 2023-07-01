@@ -1,0 +1,71 @@
+.rooms__section {
+	padding: 70px 0px 50px 0px;
+	position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.rooms__text {
+    font-size: 42px !important;
+    font-family: "Gill Sans MT Pro", Sans-serif;
+    font-weight: 400;
+    span {
+        font-size: 18px !important;
+        line-height: 18px !important;
+        vertical-align: super;
+        padding-left: 7px;
+    }
+}
+
+.slider {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 7px !important;
+}
+
+.slide__container {
+    padding: 0px 8px !important;
+    margin-left: -1.5px;
+    margin-right: -1.5px;
+}
+
+.slide__link {
+    box-shadow: none;
+    text-decoration: none;
+    outline: none;
+}
+
+.slide__picture {
+    object-fit: cover;
+    width: 264px !important;
+    height: 415px;
+}
+
+.slider__carousel {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.slider__carousel::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.slider__title {
+    line-height: 21px !important;
+    font-weight: 500 !important;
+    font-family: "Gill Sans MT Pro", Sans-serif;
+    white-space: normal;
+    font-size: 14px !important;
+}

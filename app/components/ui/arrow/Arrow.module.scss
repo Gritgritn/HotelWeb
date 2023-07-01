@@ -1,0 +1,17 @@
+.book__container {
+	padding: 0px 0px 10px 0px;
+	font-family: "Gill Sans MT Pro", Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+	display: flex;
+}
+
+.book_arrow__svg {
+	width: 20px;
+    margin: 0 0 2px 3px;
+	transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,transform .4s;
+	&:hover {
+		transform: rotate(45deg);
+	}
+}
